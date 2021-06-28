@@ -15,7 +15,9 @@ Désigner un master (unique à toute la promo) sur github qui créera un csv ave
 - l’année de sortie
 - le genre
 - le réalisateur
+
 Chacun doit Forker le projet et ajouter 3 films avec une pull request
+
 ### Etape 2:
 Développement du site en MVC
 
@@ -63,3 +65,11 @@ Chaque membre aura un rôle attitré:
 - [Elodie GAGE](https://github.com/happyvolt92)
 - [Dylan CHAPUIS](https://github.com/CDylan-source)
 - [Oscar MILLOT](https://github.com/OscarM-Code)
+
+
+
+
+#### Date de début:
+28/06/2021
+#### Date de rendu:
+05/06/2021
