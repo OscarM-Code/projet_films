@@ -19,8 +19,11 @@ Développement du site en MVC
 
 Chaque équipe est composée de 3 membres.
 Chaque membres aura un rôles attitré:
+
 ● Chef de projet -> Oscar MILLOT
+
 ● Dev front -> Dylan CHAPUIS
+
 ● Dev back -> Elodie GAGE
 
 Rôle du chef de projet → :
@@ -34,12 +37,14 @@ Rôle du chef de projet → :
 - Review de code
 - Résolution des bugs
 - Mise en ligne du projet
+
 Rôle du dev front → V :
 - Réaliser les wireframes
 - Réaliser les maquettes
 - Réaliser la charte graphique
 - UI UX Design
 - Intégrer
+
 Rôle du dev back → M + C :
 - S’occuper des requêtes avec la base de données
 - S’occuper du MCD
@@ -48,13 +53,19 @@ Rôle du dev back → M + C :
 Langages et outils utilisés
 
 ● Trello
+
 ● HTML5
+
 ● CSS3
+
 ● Javascript
+
 ● PHP
 
 Collaborateurs
 
 ● Elodie GAGE
+
 ● Dylan CHAPUIS
+
 ● Oscar MILLOT
