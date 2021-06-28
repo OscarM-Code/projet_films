@@ -1,9 +1,9 @@
-Projet_Film
+# Projet_Film
 
 Projet pour l'ACS (projet en cours)
 Description
 
-Consignes du projet :
+## Consignes du projet :
 
 Le but de ce projet est de créer un annuaire de film de type “allociné”
 Etape 1:
@@ -50,7 +50,7 @@ Rôle du dev back → M + C :
 - S’occuper du MCD
 - S’occuper du controlle
 
-Langages et outils utilisés
+## Langages et outils utilisés
 
 ● Trello
 
@@ -62,10 +62,10 @@ Langages et outils utilisés
 
 ● PHP
 
-Collaborateurs
+## Collaborateurs
 
-● Elodie GAGE
+● [Elodie GAGE]
 
-● Dylan CHAPUIS
+● [Dylan CHAPUIS]
 
-● Oscar MILLOT
+● [Oscar MILLOT]
