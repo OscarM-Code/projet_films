@@ -55,6 +55,6 @@ Langages et outils utilisés
 
 Collaborateurs
 
-● Dylan CHAPUIS
 ● Elodie GAGE
+● Dylan CHAPUIS
 ● Oscar MILLOT
