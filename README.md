@@ -57,6 +57,7 @@ Chaque membre aura un rôle attitré:
 - CSS3
 - Javascript
 - PHP
+- Visual Studio Code
 
 ## Collaborateurs
 - [Elodie GAGE](https://github.com/happyvolt92)
