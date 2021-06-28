@@ -19,7 +19,7 @@ Chacun doit Forker le projet et ajouter 3 films avec une pull request
 Développement du site en MVC
 
 Chaque équipe est composée de 3 membres.
-Chaque membres aura un rôles attitré:
+Chaque membre aura un rôle attitré:
 
 - Chef de projet -> Oscar MILLOT
 - Dev front -> Dylan CHAPUIS
