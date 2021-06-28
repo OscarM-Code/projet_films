@@ -58,6 +58,6 @@ Chaque membres aura un rôles attitré:
 - PHP
 
 ## Collaborateurs
-- [Elodie GAGE]
+- [Elodie GAGE](https://github.com/happyvolt92)
 - [Dylan CHAPUIS]
 - [Oscar MILLOT](https://github.com/OscarM-Code)
