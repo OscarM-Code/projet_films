@@ -16,7 +16,7 @@ Désigner un master (unique à toute la promo) sur github qui créera un csv ave
 - le genre
 - le réalisateur
 
-Chacun doit Forker le projet et ajouter 3 films avec une pull request
+Chacun des membres doit Forker le projet et ajouter 3 films avec une pull request
 
 ### Etape 2:
 Développement du site en MVC
@@ -33,9 +33,11 @@ Chaque membre aura un rôle attitré:
 - Etablir une convention de codage
 - Etablir une organisation de dossiers
 - Etablir une convention de nommage
-- Créer, découper et assigner les tâches + gestion du temps
+- Créer, découper et assigner les tâches + gestion du temps (pomodoro)
+- Organiser des réunions 2 fois par jour minimum (méthode agile)
 - Choisir les technos/outils à utiliser
 - Router avec Switch
+- S’occuper du htaccess
 - Review de code
 - Résolution des bugs
 - Mise en ligne du projet
@@ -50,7 +52,7 @@ Chaque membre aura un rôle attitré:
 #### Rôle du dev back → M + C :
 - S’occuper des requêtes avec la base de données
 - S’occuper du MCD
-- S’occuper du controlle
+- S’occuper du controller
 
 ## Langages et outils utilisés
 
