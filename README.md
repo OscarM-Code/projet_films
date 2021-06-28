@@ -1,9 +1,10 @@
 # Projet_Film
 
 Projet pour l'ACS (projet en cours)
-Description
 
-## Consignes du projet :
+## Description
+
+##Consignes du projet :
 
 Le but de ce projet est de créer un annuaire de film de type “allociné”
 
