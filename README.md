@@ -59,5 +59,5 @@ Chaque membres aura un rôles attitré:
 
 ## Collaborateurs
 - [Elodie GAGE](https://github.com/happyvolt92)
-- [Dylan CHAPUIS]
+- [Dylan CHAPUIS](https://github.com/CDylan-source)
 - [Oscar MILLOT](https://github.com/OscarM-Code)
