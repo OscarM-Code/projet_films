@@ -13,7 +13,7 @@ switch ($url) {
         require './controller/about_us.php';
         break;
     case $url[2] == 'film':
-        require './controller/film.php';
+        require './controller/films.php';
         break;
     default:
         http_response_code(404);

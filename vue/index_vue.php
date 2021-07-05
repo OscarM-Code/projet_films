@@ -8,5 +8,16 @@
 </head>
 <body>
     <h1>HOME PAGE</h1>
+    <?php
+        while ($donnees = $req->fetch())
+        {
+        ?>
+    <section>
+    <?php echo $donnees['titre']; ?>
+    </section>
+    <?php
+        }
+        $req->closeCursor();
+        ?>
 </body>
 </html>
