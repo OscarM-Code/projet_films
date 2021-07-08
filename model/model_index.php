@@ -1,6 +1,6 @@
 <?php
 
-function getMovies($i)
+function getMovies($id)
 {
     require 'access.php';
 	try
@@ -12,7 +12,7 @@ function getMovies($i)
 	    die('Erreur : '.$e->getMessage());
 	}
     
-    $req = $bdd->query("SELECT films.titre, films.synopsis, films.images, sorties.sortie,
+    $req = $bdd->prepare("SELECT films.titre, films.synopsis, films.images, sorties.sortie,
     group_concat(genres.genre) as genre,
     group_concat(DISTINCT realisateurs.realisateur) as realisateur
     FROM films
@@ -23,9 +23,10 @@ function getMovies($i)
     INNER JOIN realisateurs ON films_has_realisateur.realisateur_id_realisateur = id_realisateur
     
     INNER JOIN sorties ON films.date_id_date_de_sortie = sorties.id_date_de_sortie
-    WHERE id_film LIKE $i
+    WHERE id_film = :id
     GROUP BY films.titre, films.synopsis, films.images, films.date_id_date_de_sortie"
     );
+    $req->execute(["id" => $id]);
 
     return $req;
 	

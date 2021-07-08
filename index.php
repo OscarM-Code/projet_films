@@ -20,3 +20,7 @@ switch ($url) {
         require './controller/error.php';
         break;
     }
+
+?>
+
+

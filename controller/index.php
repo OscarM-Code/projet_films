@@ -2,9 +2,9 @@
 
 require './model/model_index.php';
 
-// $id = $_POST[body];
+$req = getMovies(5);
 
-$req = getMovies(1);
+$donnees = $req->fetch();
 
 require './vue/index_vue.php';
 
