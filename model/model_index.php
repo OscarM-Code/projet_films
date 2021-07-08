@@ -31,4 +31,22 @@ function getMovie($id)
     return $req;
 	
 }
+
+function getPictures()
+{
+    require 'access.php';
+	try
+	{
+	    $bdd = new PDO($dsn, $username, $password);
+	}
+	catch(Exception $e)
+	{
+	    die('Erreur : '.$e->getMessage());
+	}
+
+    $rec = $bdd->prepare("SELECT films.images FROM films");
+    $rec->execute();
+
+    return $rec;
+}
 ?>

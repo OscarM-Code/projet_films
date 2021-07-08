@@ -68,11 +68,8 @@ footer
 .slider .slide {
     width: 25%;
     height: 100%;
-    background: gray;
+    background: transparent;
     display: none;
-    font-size: 50px;
-    border-radius: 2px;
-    box-shadow: 0px 15px 10px -10px lightgray;
 }
 .slider .slide:nth-child(1) {
     display: block;
@@ -91,5 +88,11 @@ footer
     height: 25%;
     font-size: 2rem;
     border-radius: 100%;
+}
+
+.slide img
+{
+    height: 100%;
+    box-shadow: 0px 15px 10px -10px lightgray;
 }
 

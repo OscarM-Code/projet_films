@@ -26,8 +26,15 @@
     <button id="btPrev"><</button>
 
     <div class="slider">
-        <div class="slide">1</div>
-        <div class="slide">2</div>
+
+    <?php foreach ($allPic as $Pic): ?>
+
+        <div class="slide">
+            <img src="<?php echo $Pic["images"]; ?>" alt="affiche du films">
+        </div>
+
+    <?php endforeach; ?>
+        <!-- <div class="slide">2</div>
         <div class="slide">3</div>
         <div class="slide">4</div>
         <div class="slide">5</div>
@@ -67,7 +74,7 @@
         <div class="slide">39</div>
         <div class="slide">40</div>
         <div class="slide">41</div>
-        <div class="slide">42</div>
+        <div class="slide">42</div> -->
 
     </div>
 

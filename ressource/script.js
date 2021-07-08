@@ -61,6 +61,8 @@ goNext.addEventListener("click", function() {
         slide[1].style.transform = "translateX(100%)";
         slide[41].style.transform = "translateX(-200%)";
     }
+
+    console.log(slide.length);
 })
 
 goPrev.addEventListener("click", function() {
