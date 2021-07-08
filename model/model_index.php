@@ -1,6 +1,6 @@
 <?php
 
-function getMovies($id)
+function getMovie($id)
 {
     require 'access.php';
 	try

@@ -2,7 +2,9 @@
 
 require './model/model_index.php';
 
-$req = getMovies(5);
+$i = rand(1, 42);
+
+$req = getMovie($i);
 
 $donnees = $req->fetch();
 
