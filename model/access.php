@@ -1,13 +1,11 @@
 <?php
 
 // PDO
-
 // try {
 //     $library = new PDO('mysql:host=localhost;dbname=library;charset=utf8', 'elodiegage', 'fortaleza');
 // } catch (Exception $e) {
 //     die('Erreur : ' . $e->getMessage());
 // }
-
 
 // $host = "localhost";
 // $user = "elodiegage";
