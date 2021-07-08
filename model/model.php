@@ -2,7 +2,7 @@
 
 // Requête pour la barre de recherche + modal
 
-require("pdo.php");
+require("access.php");
 
 $search = $_POST['s'];
 $sth = $library->prepare(
