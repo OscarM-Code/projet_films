@@ -13,8 +13,8 @@ function getMovies($id)
 	}
     
     $req = $bdd->prepare("SELECT films.titre, films.synopsis, films.images, sorties.sortie,
-    group_concat(genres.genre) as genre,
-    group_concat(DISTINCT realisateurs.realisateur) as realisateur
+    group_concat(DISTINCT genres.genre SEPARATOR ' ' ) as genre,
+    group_concat(DISTINCT realisateurs.realisateur SEPARATOR ' ') as realisateur
     FROM films
     INNER JOIN films_has_genres ON films_has_genres.films_id_film = films.id_film
     INNER JOIN genres ON films_has_genres.genres_id_genres = id_genres
