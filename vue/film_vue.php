@@ -7,7 +7,7 @@
         </ul>
 
     </header>
-<input type="text" id="search">
+<input type="text" id="search" placeholder="Rechercher un film par Titres, Dates de sorties, Genres, ou Réalisateurs 🔍">
 
 <section id="listFilm">
 
