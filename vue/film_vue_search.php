@@ -1,7 +1,3 @@
-<input type="text" id="search">
-
-<section id="listFilm">
-
 <?php foreach ($list as $fullList): ?>
 
 <div class="listDiv" href="#<?php echo $fullList['id_film']; ?>">
@@ -15,5 +11,3 @@
 </div>
 
 <?php endforeach; ?>
-
-</section>

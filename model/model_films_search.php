@@ -1,6 +1,5 @@
 <?php
-
-function getMovie($id)
+function getList($search)
 {
     require 'access.php';
 	try
@@ -23,30 +22,17 @@ function getMovie($id)
     INNER JOIN realisateurs ON films_has_realisateur.realisateur_id_realisateur = id_realisateur
     
     INNER JOIN sorties ON films.date_id_date_de_sortie = sorties.id_date_de_sortie
-    WHERE id_film = :id
+    WHERE titre LIKE :search1 OR sortie LIKE :search2 OR genre LIKE :search3  OR realisateur LIKE :search4
     GROUP BY films.titre, films.synopsis, films.images, films.date_id_date_de_sortie"
     );
-    $req->execute(["id" => $id]);
+    $req->execute([
+        "search1" => $search,
+        "search2" => $search,
+        "search3" => $search,
+        "search4" => $search
+    ]);
 
     return $req;
 	
-}
-
-function getPictures()
-{
-    require 'access.php';
-	try
-	{
-	    $bdd = new PDO($dsn, $username, $password);
-	}
-	catch(Exception $e)
-	{
-	    die('Erreur : '.$e->getMessage());
-	}
-
-    $rec = $bdd->prepare("SELECT films.images, id_film FROM films");
-    $rec->execute();
-
-    return $rec;
 }
 ?>

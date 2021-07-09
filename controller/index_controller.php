@@ -1,8 +1,11 @@
 <?php
 
-require './model/model_index.php';
+include "./model/model_index.php";
+
+$i = "";
 
 $i = rand(1, 42);
+
 
 $req = getMovie($i);
 
@@ -12,6 +15,6 @@ $rec = getPictures();
 
 $allPic = $rec->fetchAll(PDO::FETCH_ASSOC);
 
-require './vue/index_vue.php';
+include "./vue/index_vue.php";
 
 ?>

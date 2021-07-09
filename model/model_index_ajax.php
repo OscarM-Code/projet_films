@@ -32,21 +32,4 @@ function getMovie($id)
 	
 }
 
-function getPictures()
-{
-    require 'access.php';
-	try
-	{
-	    $bdd = new PDO($dsn, $username, $password);
-	}
-	catch(Exception $e)
-	{
-	    die('Erreur : '.$e->getMessage());
-	}
-
-    $rec = $bdd->prepare("SELECT films.images, id_film FROM films");
-    $rec->execute();
-
-    return $rec;
-}
 ?>
