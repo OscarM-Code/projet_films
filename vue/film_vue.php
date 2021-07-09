@@ -17,3 +17,5 @@
 <?php endforeach; ?>
 
 </section>
+
+<script src="assets/script_navbar.js"></script>

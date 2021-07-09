@@ -1,5 +1,3 @@
-<?php foreach ($list as $fullList): ?>
-
 <div class="listDiv" href="#<?php echo $fullList['id_film']; ?>">
     <img src="<?php echo $fullList["images"]; ?>" alt="affiche du films">
     <div>
@@ -9,5 +7,3 @@
         <p> <?php echo $fullList["synopsis"]; ?> </p>
     </div>
 </div>
-
-<?php endforeach; ?>

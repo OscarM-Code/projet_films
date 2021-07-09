@@ -32,3 +32,6 @@
 <button id="btNext">></button>
         
 </section>
+
+<script src="assets/script_ajax.js"></script>
+<script src="assets/script_carrousel.js"></script>

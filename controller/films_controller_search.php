@@ -10,10 +10,33 @@ if(isset($_GET['search']) && !empty($_GET['search']))
     $i = "error";
 }
 
-$req = getList($i);
+
+
+
+
+if(empty($_GET['search'])){
+    $req = getAllList();
+} else {
+    $req = getList($i);
+}
 
 $list = $req->fetchAll(PDO::FETCH_ASSOC);
 
-require '../vue/film_vue_search.php';
+$row = $req->rowCount();
+
+if($row > 0){
+
+    foreach ($list as $fullList):
+
+    require '../vue/film_vue_search.php';
+
+    endforeach;
+} else {
+    require '../vue/error_vue_search.php';
+}
+
+
+
+
 
 ?>

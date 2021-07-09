@@ -8,7 +8,9 @@
     <title>Projet Films</title>
 </head>
 <body>
-    <header> CECI EST UN HEADER
+    <header>
+
+    <img src="assets/images/logo.png" alt="image de lune">
 
     <a href="./">ACCEUIL</a>
     <a href="./film">RECHERCHE</a>
@@ -46,9 +48,6 @@ switch ($url) {
 <p>CECI EST UN FOOTER</p>
 </footer>
 
-<script src="assets/script_ajax.js"></script>
-<script src="assets/script_carrousel.js"></script>
-    
 </body>
 </html>
 
