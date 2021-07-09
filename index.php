@@ -1,23 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
-    <title>Projet Films</title>
+    <title>Projet Film</title>
 </head>
 <body>
     <header>
 
-    <img src="assets/images/logo.png" alt="image de lune">
+        <div>
+            <img id="logo" src="assets/images/logo.png" alt="image de lune">
 
-    <a href="./">ACCEUIL</a>
-    <a href="./film">RECHERCHE</a>
-    <a href="./credits">CRÉDITS</a>
-
-
-    </header>
+            <h1> Project Film </h1>
+        </div>
+        
 
 <?php
 
@@ -40,7 +38,7 @@ switch ($url) {
         http_response_code(404);
         require 'controller/error_controller.php';
         break;
-    }
+}
 
 ?>
 

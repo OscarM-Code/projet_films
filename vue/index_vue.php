@@ -1,3 +1,12 @@
+        <ul>
+
+            <li><a id="there" href="./">ACCEUIL</a></li>
+            <li><a href="./film">RECHERCHE</a></li>
+            <li><a href="./credits">CRÉDITS</a></li>
+
+        </ul>
+
+    </header>
 <section id="big">
     <div>
         <img src="<?php echo $donnees['images']; ?>">
