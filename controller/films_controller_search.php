@@ -10,10 +10,6 @@ if(isset($_GET['search']) && !empty($_GET['search']))
     $i = "error";
 }
 
-
-
-
-
 if(empty($_GET['search'])){
     $req = getAllList();
 } else {

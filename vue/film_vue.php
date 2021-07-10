@@ -13,10 +13,10 @@
 
 <?php foreach ($list as $fullList): ?>
 
-<div class="listDiv" href="#<?php echo $fullList["id_film"]; ?>">
+<div class="listDiv">
     <img src="<?php echo $fullList["images"]; ?>" alt="affiche du films">
 
-    <button> <p><span>+</span> En savoir plus</p> </button>
+    <button href="#<?php echo $fullList["titre"]; ?>"> <p><span>+</span> En savoir plus</p> </button>
     
     <div>
         <p> <span>Titre: </span> <span class="spanSearch"><?php echo $fullList["titre"]; ?></span> </p>
@@ -31,3 +31,4 @@
 </section>
 
 <script src="assets/script_navbar.js"></script>
+<script src="assets/script_card_search.js"></script>
