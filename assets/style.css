@@ -35,6 +35,7 @@ header
     justify-content: space-between;
     font-family: "MondaReg" ;
     position: fixed;
+    z-index: 1000;
 }
 
 header div
@@ -90,7 +91,7 @@ header ul li a:after {
     height: 2px;
     background: linear-gradient(90deg, #EF5DA8, #5D5DEF);
     margin-left: 50%;
-    transition: 0.7s;
+    transition: 0.5s;
     width: 0;
   }
   header ul li a:hover:after { 
@@ -101,7 +102,7 @@ header ul li a:after {
 #there
 {
     background: linear-gradient(90deg, #EF5DA8, #5D5DEF);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transform: 1sec;
 }
@@ -109,6 +110,11 @@ header ul li a:after {
 #big, #search
 {
     margin-top: 15vh;
+}
+
+header ul li a:hover
+{
+    cursor: pointer;
 }
 
 /* ----------------------------------STYLE HEADER FIN------------------------------ */
@@ -198,19 +204,22 @@ input
 {
     width: 80%;
     height: 5vh;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-color: #000000;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #121212;
     color: #e5e5e5;
     outline: none;
     font-family: "MondaReg";
     text-align: center;
     position: fixed;
+    z-index: 1000;
+    border: none;
+    transition: 0.5s;
 }
 
 input:hover
 {
-    background-color: #121212;
+    background-color: #2e2d2d;
 }
 
 #listFilm
@@ -219,6 +228,7 @@ input:hover
     flex-direction: column;
     align-items: center;
     margin-top: 20vh;
+    width: 75%;
 }
 
 .listDiv
@@ -230,9 +240,13 @@ input:hover
     border-width: 4px;
     border-style: solid;
     border-image: linear-gradient(to left, #EF5DA8, #5D5DEF) 30;
-    border-radius: 10px;
     color: #e5e5e5;
     font-family: "MondaReg";
+    transition: 0.75s;
+    transform: scale(1);
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
 }
 
 .listDiv img
@@ -240,9 +254,80 @@ input:hover
     height: 100%;
 }
 
+.listDiv .spanSearch
+{
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.listDiv div
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .listDiv p
 {
-    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    font-weight: 1000;
+}
+
+.listDiv button
+{
+    width: 20%;
+    position: absolute;
+    height: 20%;
+    text-align: center;
+    background: #000000;
+    transform: scale(0);
+    transition: 0.75s;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #EF5DA8, #5D5DEF) 1 1 1 1;
+}
+
+.listDiv:hover button:hover
+{
+    transform: scale(1.2);
+    cursor: pointer;
+    background: #121212;
+}
+
+.listDiv:hover button
+{
+    transform: scale(1);
+}
+
+.listDiv button p
+{
+    background: linear-gradient(90deg, #EF5DA8, #5D5DEF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    justify-content: center;
+}
+
+.listDiv button span
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.listDiv span
+{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.listDiv:hover
+{
+    transform: scale(1.2);
 }
 
 /* ----------------------------------STYLE CONTENU FIN------------------------------ */
