@@ -31,8 +31,6 @@ if($row > 0){
     require '../vue/error_vue_search.php';
 }
 
-
-
-
-
 ?>
+
+<script src="assets/script_card_search.js"></script>

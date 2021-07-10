@@ -449,6 +449,87 @@ input:hover
     transform: scale(1.2);
 }
 
+/* --------------------CARD-------------- */
+
+#card
+{
+    width: 100%;
+    height: 85vh;
+    position: absolute;
+    margin-top: 15vh;
+    transform: scale(0);
+    transition: 1s;
+    z-index: 10000;
+    display: flex;
+    font-family: "MondaReg";
+    color: #e5e5e5;
+}
+
+#card div
+{
+    height: 100%;
+}
+
+#card img
+{
+    height: 100%;
+}
+
+#card div:nth-child(2)
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card div:nth-child(2) .divO
+{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+
+#card div:nth-child(2) .divO div:nth-child(1)
+{
+    width: 30%;
+    margin-left: 5%;
+    height: 100%;
+}
+
+#card div:nth-child(2) .divO div:nth-child(2)
+{
+    width: 60%;
+    margin-right: 5%;
+    height: 100%;
+}
+
+#card div:nth-child(2) .divO div:nth-child(2) p
+{
+    font-size: 0.9rem;
+}
+
+#card h2
+{
+    font-size: 2.5rem;
+    margin: 0;
+    background: linear-gradient(90deg, #EF5DA8, #5D5DEF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#card h3
+{
+    font-size: 1.5rem;
+    background: linear-gradient(90deg, #EF5DA8, #5D5DEF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#card div:nth-child(2) .divO div:nth-child(1) p
+{
+    font-size: 1.2rem;
+}
+
 /* ----------------------------------STYLE CONTENU FIN------------------------------ */
 
 footer
@@ -457,5 +538,6 @@ footer
     height: 10vh;
     background-color: #000000;
     color: azure;
+    justify-self: flex-end;
 }
 
