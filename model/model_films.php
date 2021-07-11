@@ -4,7 +4,7 @@ function getList()
     require 'access.php';
 	try
 	{
-	    $bdd = new PDO($dsn, $username, $password);
+	    $bdd = new PDO($dsn, $user, $pass);
 	}
 	catch(Exception $e)
 	{

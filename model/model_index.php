@@ -31,16 +31,13 @@ function getMovie($id)
     return $req;
 	
 }
-<<<<<<< HEAD
-var_dump($req);
-=======
 
 function getPictures()
 {
     require 'access.php';
 	try
 	{
-	    $bdd = new PDO($dsn, $username, $password);
+	    $bdd = new PDO($dsn, $user, $pass);
 	}
 	catch(Exception $e)
 	{
@@ -52,5 +49,4 @@ function getPictures()
 
     return $rec;
 }
->>>>>>> d1022667ac98f0765dd2ee9e3883fe54a108f357
 ?>
