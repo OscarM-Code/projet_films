@@ -17,7 +17,7 @@ INNER JOIN films_has_genres ON films_has_genres.films_id_film = films.id_film
 INNER JOIN genres ON genres.id_genres = films_has_genres.genres_id_genres
 
 INNER JOIN sorties ON sorties.id_date_de_sortie = films.date_de_sortie_id_date_de_sortie
--- WHERE film.titre LIKE '%$search%'
+WHERE film.titre LIKE '%$search%'
 GROUP BY films.titre, films.synopsis, films.date_id_date_de_sortie"
 );
 $sth->execute();

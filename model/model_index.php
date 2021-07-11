@@ -5,7 +5,7 @@ function getMovies($id)
     require 'access.php';
 	try
 	{
-	    $bdd = new PDO($dsn, $user, $password);
+	    $bdd = new PDO($dsn, $user, $pass);
 	}
 	catch(Exception $e)
 	{
@@ -31,4 +31,5 @@ function getMovies($id)
     return $req;
 	
 }
+var_dump($req);
 ?>
