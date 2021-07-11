@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -11,3 +12,6 @@
     <img src="/projet_films/vue/images/tools.jpg" alt="boîte à outil" width="150px" height="150px" >
 </body>
 </html>
+=======
+<h1>ERROR 404 ! PAGE NOT FOUND </h1>
+>>>>>>> d1022667ac98f0765dd2ee9e3883fe54a108f357

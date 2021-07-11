@@ -1,22 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>projet_films</title>
-</head>
-<body>
-    <h1>HOME PAGE</h1>
-    <button>fffffffffffffff</button>
-   
-    <section>
-    <img src="<?php echo $donnees['images']; ?>">
+        <ul>
+
+            <li><a id="there" href="./">ACCEUIL</a></li>
+            <li><a href="./film">RECHERCHE</a></li>
+            <li><a href="./credits">CRÉDITS</a></li>
+
+        </ul>
+
+    </header>
+
+    <section id="card">
+        <img id="closeCard" src="assets/images/close_card.jpg" alt="image d'une croix pour fermer la page">
+        <div id="cardContent">
+
+        </div>
+
     </section>
 
-    <p>
-    <?php echo $donnees['genre']; ?>
-    </p>
-    <script src="ressource/script.js"></script>
-</body>
-</html>
+<section id="big">
+    <div>
+        <img src="<?php echo $donnees['images']; ?>">
+    </div>
+    
+    <div>
+        <h2> <?php echo $donnees['titre']; ?> </h2>
+        <h3>Réalisé par:</h3>
+        <p> <?php echo $donnees['realisateur']; ?> </p>
+        <h3>Sorti en:</h3>
+        <p> <?php echo $donnees['sortie']; ?> </p>
+        <h3>Genre(s): </h3>
+        <p> <?php echo $donnees['genre']; ?></p>
+        <h3>Synopsis: </h3>
+        <p class="syn"> <?php echo $donnees['synopsis']; ?></p>
+        <button class="btCard" href="#<?php echo $donnees['titre']; ?>"> <p><span>+</span> En savoir plus</p> </button>
+    </div>
+</section>
+
+<section class="container">
+
+<button id="btPrev"><p><</p></button>
+
+    <div class="slider">
+
+<?php foreach ($allPic as $Pic): ?>
+
+    <div class="slide" href="#<?php echo $Pic['id_film'] ?>">
+        <img src="<?php echo $Pic["images"]; ?>" alt="affiche du films">
+    </div>
+
+<?php endforeach; ?>
+
+</div>
+
+<button id="btNext"><p>></p></button>
+        
+</section>
+
+<script src="assets/script_ajax.js"></script>
+<script src="assets/script_carrousel.js"></script>
+<script src="assets/script_card_index.js"></script>
+<script src="assets/script_close_index.js"></script>

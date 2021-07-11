@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -10,3 +11,16 @@
     <h1>COUCOU</h1>
 </body>
 </html>
+=======
+<ul>
+
+            <li><a href="./">ACCEUIL</a></li>
+            <li><a href="./film">RECHERCHE</a></li>
+            <li><a id="there" href="./credits">CRÉDITS</a></li>
+
+        </ul>
+
+    </header>
+
+<h2>COUCOU</h2>
+>>>>>>> d1022667ac98f0765dd2ee9e3883fe54a108f357
