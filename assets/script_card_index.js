@@ -4,20 +4,19 @@ var btn = document.querySelectorAll(".btCard");
 btn.forEach((btn) => {
     btn.addEventListener("click", (e) => {
         var card = document.getElementById("card");
-        var listF = document.getElementById("listFilm");
+        var big = document.getElementById("big");
         var footer = document.querySelector("footer");
-        var inp = document.querySelector("input");
+        var container = document.querySelector(".container")
         b = e.currentTarget.getAttribute("href").slice(1);
-        ajax();
-        window.scrollTo(0, 0);
-        listF.style.display = "none";
-        inp.style.display = "none";
+        ajaxC();
+        big.style.display = "none";
+        container.style.display = "none";
         card.style.transform = "scale(1)";
         footer.style.marginTop = "100vh"
     });
 });
 
-function ajax() {
+function ajaxC() {
     var xhr = new XMLHttpRequest();
     xhr.open("GET", "controller/films_controller_card.php?name=" + b);
     xhr.onload = function() {

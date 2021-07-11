@@ -9,3 +9,4 @@
         <p> <span>Genre(s): </span> <span class="spanSearch"><?php echo $fullList["genre"]; ?></span> </p>
     </div>
 </div>
+

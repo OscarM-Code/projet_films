@@ -352,7 +352,7 @@ input:hover
 
 .listDiv
 {
-    margin-top: 30px;
+    margin-bottom: 30px;
     width: 95%;
     height: 25vh;
     display: flex;
@@ -366,6 +366,11 @@ input:hover
     z-index: 100;
     justify-content: center;
     align-items: center;
+}
+
+.listDiv:nth-child(1)
+{
+    margin-top: 30px;
 }
 
 .listDiv img
@@ -460,55 +465,79 @@ input:hover
     transform: scale(0);
     transition: 1s;
     z-index: 10000;
-    display: flex;
     font-family: "MondaReg";
     color: #e5e5e5;
 }
 
-#card div
+#cardContent
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#closeCard
+{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    height: 10%;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #EF5DA8, #5D5DEF);
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+#closeCard:hover
+{
+    cursor: pointer;
+    transform: scale(1.25);
+}
+
+#cardContent div
 {
     height: 100%;
 }
 
-#card img
+#cardContent img
 {
     height: 100%;
 }
 
-#card div:nth-child(2)
+#cardContent div:nth-child(2)
 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#card div:nth-child(2) .divO
+#cardContent div:nth-child(2) .divO
 {
     display: flex;
     flex-direction: row;
     height: 80%;
 }
 
-#card div:nth-child(2) .divO div:nth-child(1)
+#cardContent div:nth-child(2) .divO div:nth-child(1)
 {
     width: 30%;
     margin-left: 5%;
     height: 100%;
 }
 
-#card div:nth-child(2) .divO div:nth-child(2)
+#cardContent div:nth-child(2) .divO div:nth-child(2)
 {
     width: 60%;
     margin-right: 5%;
     height: 100%;
 }
 
-#card div:nth-child(2) .divO div:nth-child(2) p
+#cardContent div:nth-child(2) .divO div:nth-child(2) p
 {
     font-size: 0.9rem;
 }
 
-#card h2
+#cardContent h2
 {
     font-size: 2.5rem;
     margin: 0;
@@ -517,7 +546,7 @@ input:hover
     -webkit-text-fill-color: transparent;
 }
 
-#card h3
+#cardContent h3
 {
     font-size: 1.5rem;
     background: linear-gradient(90deg, #EF5DA8, #5D5DEF);
@@ -525,7 +554,7 @@ input:hover
     -webkit-text-fill-color: transparent;
 }
 
-#card div:nth-child(2) .divO div:nth-child(1) p
+#cardContent div:nth-child(2) .divO div:nth-child(1) p
 {
     font-size: 1.2rem;
 }
@@ -535,9 +564,51 @@ input:hover
 footer
 {
     width: 100%;
-    height: 10vh;
+    height: 20vh;
     background-color: #000000;
     color: azure;
     justify-self: flex-end;
+    font-family: "MondaReg";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+footer p:nth-child(1)
+{
+    height: 37.5%;
+    margin: 0;
+    margin-top: 2%;
+}
+
+footer a
+{
+    height: 57.5%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #e5e5e5;
+    transform: translateY(0%);
+    transition: 0.5s;
+}
+
+footer a img
+{
+    height: 60%;
+}
+
+footer a p
+{
+    margin: 0;
+    margin-left: 10px;
+}
+
+footer a:hover
+{
+    background: linear-gradient(90deg, #EF5DA8, #5D5DEF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translateY(-10%);
+}

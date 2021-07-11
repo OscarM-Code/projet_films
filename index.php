@@ -43,7 +43,8 @@ switch ($url) {
 ?>
 
 <footer>
-<p>CECI EST UN FOOTER</p>
+<p>©Projet film réalisé au sein de l'Access Code School par Élodie Gage, Dylan Chapuis et Oscar Millot, 2021</p>
+<a href="https://github.com/OscarM-Code/projet_films" target="blank"><img src="assets/images/logo_github.png" alt="logo github (chat avec une tentacule)"><p> GitHub du projet </p></a>
 </footer>
 
 </body>

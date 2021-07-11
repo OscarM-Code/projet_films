@@ -12,5 +12,5 @@
         <p> <?php echo $donnees['genre']; ?></p>
         <h3>Synopsis: </h3>
         <p class="syn"> <?php echo $donnees['synopsis']; ?></p>
-        <button> <p><span>+</span> En savoir plus</p> </button>
+        <button class="btCard" href="#<?php echo $donnees['titre']; ?>"> <p><span>+</span> En savoir plus</p> </button>
 </div>

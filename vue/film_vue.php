@@ -9,6 +9,10 @@
     </header>
 <input type="text" id="search" placeholder="Rechercher un film par Titres, Dates de sorties, Genres, ou Réalisateurs 🔍">
 <section id="card">
+    <img id="closeCard" src="assets/images/close_card.jpg" alt="image d'une croix pour fermer la page">
+    <div id="cardContent">
+
+    </div>
 
 </section>
 <section id="listFilm">
@@ -30,8 +34,8 @@
 
 <?php endforeach; ?>
 
-<script src="assets/script_card_search.js"></script>
-
 </section>
 
+<script src="assets/script_card_search.js"></script>
 <script src="assets/script_navbar.js"></script>
+<script src="assets/script_close_search.js"></script>
