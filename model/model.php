@@ -25,7 +25,6 @@ $sth->execute();
 
 $test = $sth->fetchAll(PDO::FETCH_NUM);
 print_r($test);
-
 // Requête pour l'affiche des films aléatoire sur la page d'acceuil + fonction random
 
 
