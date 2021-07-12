@@ -48,11 +48,7 @@
                 <a href="https://www.linkedin.com/in/oscar-millot/" target="blank"><img src="assets/images/linkedin_logo.png" alt=""></a>
             </div>
         </div>
-<<<<<<< HEAD
-    </div>
-=======
 
     </div>
 
->>>>>>> 0fbd4d589f373222c31eadd9c65212d044dff7b4
 </section>
