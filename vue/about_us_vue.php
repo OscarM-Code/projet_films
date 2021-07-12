@@ -16,7 +16,7 @@
             <img src="assets/images/user.png" alt="photo">
             <h3>Élodie Gage</h3>
             <p><span>Alias:</span></p>
-            <h3>Lorem Ipsum</h3>
+            <h3>happyvolt</h3>
             <p><span>Rôle dans le projet:</span></p>
             <h3>Dev back-end</h3>
             <div class="link">

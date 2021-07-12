@@ -199,6 +199,7 @@ header ul li a:hover
 
 #big button
 {
+    margin-top: 20px;
     width: 20%;
     text-align: center;
     background: #000000;
@@ -216,6 +217,7 @@ header ul li a:hover
 
 #big button p
 {
+    
     background: linear-gradient(90deg, #EF5DA8, #5D5DEF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
