@@ -8,6 +8,7 @@
     <meta name="author" content="https://github.com/CDylan-source, https://github.com/happyvolt92,https://github.com/OscarM-Code ">
     <meta name="keywords" content="librairie, bibliothèque, film, filmothèque, base de donnée films">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/images/logo.png">
     <title>Projet Film</title>
 </head>
 <body>

@@ -14,3 +14,4 @@
         <p class="syn"> <?php echo $donnees['synopsis']; ?></p>
         <button class="btCard" href="#<?php echo $donnees['titre']; ?>"> <p><span>+</span> En savoir plus</p> </button>
 </div>
+

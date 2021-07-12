@@ -5,7 +5,7 @@ function getMovie($id)
     require 'access.php';
 	try
 	{
-	    $bdd = new PDO($dsn, $user, $pass);
+	    $bdd = new PDO($dsn, $username, $password);
 	}
 	catch(Exception $e)
 	{
@@ -37,7 +37,7 @@ function getPictures()
     require 'access.php';
 	try
 	{
-	    $bdd = new PDO($dsn, $user, $pass);
+	    $bdd = new PDO($dsn, $username, $password);
 	}
 	catch(Exception $e)
 	{

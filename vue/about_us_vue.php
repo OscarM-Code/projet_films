@@ -1,6 +1,6 @@
 <ul>
 
-            <li><a href="./">ACCEUIL</a></li>
+            <li><a href="./">ACCUEIL</a></li>
             <li><a href="./film">RECHERCHE</a></li>
             <li><a id="there" href="./credits">CRÉDITS</a></li>
         </ul>
