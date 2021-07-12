@@ -797,7 +797,7 @@ footer
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid #2e2d2d;
+    border-top: 1px solid #2e2d2d;
     box-shadow: 2px 2px 5px rgb(49, 46, 46);
       -moz-box-shadow: 2px 2px 5px #2e2d2d;
       -webkit-box-shadow: 2px 2px 5px #2e2d2d;
@@ -806,9 +806,9 @@ footer
 
 footer p:nth-child(1)
 {
-    height: 37.5%;
+    height: 38%;
     margin: 0;
-    margin-top: 2%;
+   
 }
 
 footer a
