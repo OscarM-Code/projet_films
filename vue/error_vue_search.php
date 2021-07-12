@@ -1,4 +1,5 @@
 <section id="error">
+
     <div>
         <h2>PAS DE RÉSULTATS POUR CETTE RECHERCHE</h2>
     </div>

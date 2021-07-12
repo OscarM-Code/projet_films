@@ -107,7 +107,7 @@ header ul li a:after {
     transform: 1sec;
 }
 
-#search
+#search, #errorB, #about
 {
     margin-top: 15vh;
 }
@@ -604,6 +604,165 @@ input:hover
 {
     font-size: 1.2rem;
 }
+
+/* ------------------------PAGE ERROR 404------------------- */
+#errorB
+{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "MondaReg";
+}
+
+#errorB div:nth-child(1)
+{
+    margin-top: 4vh;
+    background: #000000;
+    width: 60%;
+    height: 17.5%;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #EF5DA8, #5D5DEF) 1 1 1 1;
+}
+
+#errorB h2
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(90deg, #EF5DA8, #5D5DEF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+}
+
+#errorB div:nth-child(2)
+{
+    width: 100%;
+    height: 77.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#errorB div:nth-child(2) img
+{
+    height: 100%;
+}
+
+/* ------------------------PAGE CREDITS------------------- */
+#about
+{
+    width: 95%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "MondaReg";
+    color: #e5e5e5;
+}
+
+#about h2
+{
+    height: 15%;
+    background: linear-gradient(90deg, #EF5DA8, #5D5DEF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#grid
+{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#grid div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    height: 100%;
+}
+
+#grid div img
+{
+    height: 30%;
+    border-radius: 80px;
+}
+
+#grid div h3, #grid div p
+{
+    margin: 0%;
+    margin-top: 2%;
+}
+
+#grid div h3
+{
+    font-size: 1.75rem;
+}
+
+#grid div span
+{
+    background: linear-gradient(90deg, #EF5DA8, #5D5DEF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.25rem;
+}
+#grid div p
+{
+    width: 50%;
+    background: #000000;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #EF5DA8, #5D5DEF) 1 1 1 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid div .link
+{
+    margin-top: 20px;
+    width: 40%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+#grid div .link a
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid div .link a img
+{
+    height: 75%;
+    border-radius: 0;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+#grid div .link a:hover
+{
+    cursor: pointer;
+}
+
+#grid div .link a:hover img
+{
+    transform: scale(1.5);
+}
+
 
 /* ----------------------------------STYLE CONTENU FIN------------------------------ */
 
