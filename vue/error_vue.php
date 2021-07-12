@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<h1>ERROR 404 ! PAGE NOT FOUND </h1>
-=======
 <ul>
 
             <li><a href="./">ACCEUIL</a></li>
@@ -22,4 +19,3 @@
         </div>
 
     </section>
->>>>>>> 0fbd4d589f373222c31eadd9c65212d044dff7b4

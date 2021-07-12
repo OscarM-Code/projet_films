@@ -9,13 +9,9 @@
 
 <section id="about">
     <h2>CRÉDITS</h2>
-<<<<<<< HEAD
-    <div id="grid">
-=======
 
     <div id="grid">
 
->>>>>>> 0fbd4d589f373222c31eadd9c65212d044dff7b4
         <div>
             <img src="assets/images/user.png" alt="photo">
             <h3>Élodie Gage</h3>

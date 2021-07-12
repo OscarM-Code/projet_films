@@ -13,7 +13,7 @@
         <div>
             <img id="logo" src="assets/images/logo.png" alt="image de lune">
 
-            <h1> Project Film </h1>
+            <h1> The Project  </h1>
         </div>
         
 

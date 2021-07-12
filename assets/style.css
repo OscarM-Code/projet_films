@@ -174,9 +174,11 @@ header ul li a:hover
     font-size: 2rem;
     align-self: center;
     text-align: center;
-    background: linear-gradient(90deg, #EF5DA8, #5D5DEF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* background: linear-gradient(90deg, #EF5DA8, #5D5DEF); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    color: aliceblue;
+    text-shadow: 1px 1px 1px rgb(100, 14, 170);
 }
 
 #big h3
