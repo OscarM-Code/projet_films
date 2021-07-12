@@ -8,13 +8,13 @@
     </header>
 
 <section id="about">
-    <h2>CRÉDITS</h2>
+    <h2 id="credts">CRÉDITS</h2>
 
     <div id="grid">
 
         <div>
-            <img src="assets/images/user.png" alt="Élodie GAGE, dev back-end">
-            <h3>Élodie Gage</h3>
+            <img class="dev_img" src="assets/images/dev_back.png" alt="Élodie GAGE, dev back-end">
+            <h3>Élodie GAGE</h3>
             <p><span>Alias:</span></p>
             <h3>happyvolt</h3>
             <p><span>Rôle dans le projet:</span></p>
@@ -24,8 +24,9 @@
                 <a href="https://www.linkedin.com/in/%C3%A9lodie-gage-0b623b204/" target="blank"><img src="assets/images/linkedin_logo.png" alt=""></a>
             </div>
         </div>
+
         <div>
-            <img src="assets/images/user.png" alt="Dylan CHAPUIS">
+            <img class="dev_img" src="assets/images/user.png" alt="Dylan CHAPUIS">
             <h3>Dylan CHAPUIS</h3>
             <p><span>Alias:</span></p>
             <h3>Lorem Ipsum</h3>
@@ -36,9 +37,10 @@
                 <a href="https://www.linkedin.com/in/chapuis-dylan-373679210/" target="blank"><img src="assets/images/linkedin_logo.png" alt=""></a>
             </div>
         </div>
+
         <div>
-            <img src="assets/images/user.png" alt="Oscar millot, L'arme secrète">
-            <h3>Oscar Millot</h3>
+            <img class="dev_img" src="assets/images/user.png" alt="Oscar millot, L'arme secrète">
+            <h3>Oscar MILLOT</h3>
             <p><span>Alias:</span></p>
             <h3>L'arme secrète</h3>
             <p><span>Rôle dans le projet:</span></p>

@@ -662,6 +662,11 @@ input:hover
 }
 
 /* ------------------------PAGE CREDITS------------------- */
+.dev_img{
+    width: 150px;
+    height: 150px;
+}
+
 #about
 {
     width: 95%;
@@ -676,15 +681,18 @@ input:hover
 #about h2
 {
     height: 15%;
-    background: linear-gradient(90deg, #EF5DA8, #5D5DEF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #e5e5e5;
     margin: 0;
     font-size: 2.5rem;
     display: flex;
     align-items: center;
 }
-
+#credts{
+    text-shadow: 2px 2px 5px rgb(49, 46, 46);
+      -moz-text-shadow: 2px 2px 5px #2e2d2d;
+      -webkit-text-shadow: 2px 2px 5px #2e2d2d;
+      -khtml-text-shadow: 2px 2px 5px #2e2d2d;
+}
 #grid
 {
     height: 85%;
